@@ -2,9 +2,9 @@
 class Database {
     public $conn;
 
-    private $db_server = "localhost";
-    private $db_name =  "react_contact_api_db";
-    private $db_user = "root";
+    private $db_server = "";
+    private $db_name =  "";
+    private $db_user = "";
     private $db_password = "";
 
     public function getConnection(){
